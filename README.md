@@ -3,7 +3,7 @@ An end-to-end Natural Language Processing (NLP) and Machine Learning project to 
 
 This project covers the entire machine learning pipeline—from data cleaning and exploratory data analysis (EDA) to text preprocessing, model building, web application development, and cloud deployment.
 
-#Table of Contents
+# Table of Contents
 [Demo](#demo)
 [Features](#features)
 [Tech Stack](#tech-stack)
@@ -11,16 +11,16 @@ This project covers the entire machine learning pipeline—from data cleaning an
 [Project Workflow](#project-workflow)
 
 
-##Demo
+## Demo
 The end product of this project is a web application where users can input an email or SMS message and instantly check if it is flagged as Spam or Not Spam.
 
-##Features
+## Features
 Real-time Classification: Instantly predicts whether a message is spam.
 Interactive UI: Built with Streamlit for a clean and user-friendly experience.
 Robust Text Preprocessing: Handles tokenization, lowercase conversion, and the removal of stop words, punctuation, and special characters.
 High Precision Model: Utilizes a Multinomial Naive Bayes algorithm, heavily optimized for high precision to avoid false positives (flagging a genuine message as spam).
 
-##Tech Stack
+## Tech Stack
 Programming Language: Python
 Data Manipulation & Analysis: Pandas, NumPy
 Data Visualization: Matplotlib, Seaborn, WordCloud
@@ -29,10 +29,10 @@ Machine Learning: Scikit-Learn (TF-IDF Vectorizer, Multinomial Naive Bayes)
 Web App Framework: Streamlit
 
 
-##Dataset
+## Dataset
 This project uses the SMS Spam Collection Dataset provided by the UCI Machine Learning Repository. You can also use any standard Email Spam dataset, as the pipeline logic remains identical.
 
-##Project Workflow
+## Project Workflow
 Data Cleaning: Dropped irrelevant columns, renamed generic columns for readability, handled missing values, encoded target variables, and removed duplicate entries.
 
 Exploratory Data Analysis (EDA):
